@@ -1,4 +1,11 @@
 
+
+body{
+    background-image: url('https://cdn11.bigcommerce.com/s-dl6a9h3u/images/stencil/1280x1280/m/mpc2500_top_large__67844.original.png');
+    background-size:cover;
+}
+
+
 .keys{
 display:flex;
 justify-content:center;
@@ -20,8 +27,8 @@ justify-content:center;
 
 .playing{
     transform:scale(1.1);
-    border-color:rgb(238, 205, 20);
-    box-shadow: 0 0 10px rgb(238, 205, 20);
+    border-color:rgb(238, 20, 56);
+    box-shadow: 0 0 10px rgb(148, 50, 55);
 }
 
 .kbd{
@@ -33,5 +40,5 @@ justify-content:center;
     font-size:1.2rem;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color:  rgb(238, 205, 20);
+    color:  rgba(221, 55, 69, 0.932);
 }
