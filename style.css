@@ -26,9 +26,10 @@ justify-content:center;
 }
 
 .playing{
-    transform:scale(1.1);
+    transform:scale(1.2);
     border-color:rgb(238, 20, 56);
     box-shadow: 0 0 10px rgb(148, 50, 55);
+    /* transition: .4s; */
 }
 
 .kbd{
